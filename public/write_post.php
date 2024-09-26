@@ -19,7 +19,6 @@
     $data_user = $_SESSION["data_user"];
     
     $data_user["avatar_user"] = $data_user["avatar_user"] ? $data_user["avatar_user"] : "images/default_avatar.png";
-    print_r($data_user);
   }
  ?>
 <body>

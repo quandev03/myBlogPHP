@@ -65,7 +65,7 @@
           $i_full_name
         );
         
-        header("Location: http://localhost/intern_OLM_PHP/myBioPHP/login.php");
+        header("Location: http://localhost/intern_OLM_PHP/myBlogPHP/login.php");
 
       } else {
         foreach ($errors as $error) {

@@ -95,12 +95,12 @@
   <?php
     if(isset($_POST["sign_in"]) ){
     echo "Anchor";
-    header("Location: http://localhost/intern_OLM_PHP/myBioPHP/login.php");
+    header("Location: http://localhost/intern_OLM_PHP/myBlogPHP/login.php");
     exit();
     }
     if(isset($_POST["create_account"]) ){
     echo "Anchor";
-    header("Location: http://localhost/intern_OLM_PHP/myBioPHP/register.php");
+    header("Location: http://localhost/intern_OLM_PHP/myBlogPHP/register.php");
     exit();
     }
     if(isset($_POST["logout"]) ){
@@ -112,15 +112,15 @@
       header("Refresh:0");
     }
     if(isset($_POST["write_post"]) ){
-      header("Location: http://localhost/intern_OLM_PHP/myBioPHP/write_post.php");
+      header("Location: http://localhost/intern_OLM_PHP/myBlogPHP/write_post.php");
       exit();
     }
     if(isset($_POST["read_list"]) ){
-      header("Location: http://localhost/intern_OLM_PHP/myBioPHP/read_list.php");
+      header("Location: http://localhost/intern_OLM_PHP/myBlogPHP/read_list.php");
       exit();
     }
     if(isset($_POST["edit_profile"]) ){
-      header("Location: http://localhost/intern_OLM_PHP/myBioPHP/profile.php");
+      header("Location: http://localhost/intern_OLM_PHP/myBlogPHP/profile.php");
       exit();
     }
   ?>
